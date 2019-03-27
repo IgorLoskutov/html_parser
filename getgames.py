@@ -7,6 +7,8 @@ class GetGames:
         self.parser = (Parser(url))
 
     def get_games(self, tag, klass):
+        '''arrange set of games names from uls listed on the
+        specific category page'''
         self.game_names = set()
         game_urls = self.parser._get_containers(tag, klass)
         for url in game_urls:

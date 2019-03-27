@@ -10,6 +10,7 @@ class GetCategoryNames(object):
 
 
     def get_category_names(self, tag, klass):
+        '''arrange set of category names from uls listed on the page'''
         self.cat_names = set()
         category_urls = self.parser._get_containers(tag, klass)
         for url in category_urls:

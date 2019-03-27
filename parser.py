@@ -23,29 +23,3 @@ if __name__ == "__main__":
 
     parser = Parser(url)
     print((parser._get_containers('a', 'r2Osbf'))[0].get('href'))
-
-
-
-
-
-
-'''
-class GetCategoryNames:
-    def __init__(self, )
-
-
-url = 'https://play.google.com//store/apps/category/GAME'
-response = get(url)
-
-soup = BeautifulSoup(response.text, 'html.parser')
-
-
-containers = soup.find_all('div', class_='action-bar-dropdown-children-container')
-print(type(containedors))
-all_a = containe
-rs[1].find_all('a', class_ = 'submenu-container')
-for _ in all_a.a:
-    print(_)
-'''
-
-

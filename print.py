@@ -70,7 +70,7 @@ class Printer():
         game_tag='div',
         game_class='b8cIId ReQCgd Q9MA7b'
         ):
-        """default tags and classes  set accurding
+        """default tags and classes  set according
             to page desing on 26/03/2019"""
         self._get_response(
             cat_tag,
